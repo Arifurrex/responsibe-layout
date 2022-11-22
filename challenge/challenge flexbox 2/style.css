@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+body {
+  font-size: 21px;
+}
+h1 {
+  font-size: 3rem;
+}
+.row {
+  display: flex;
+}
+.hero {
+  padding: 10em 0;
+  background-color: rgba(32, 129, 76, 0.726);
+  color: #fff;
+}
+.container {
+  width: 80%;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+.hero--text {
+  width: 60%;
+}
+
+.hero p {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+.btn {
+  display: inline-block;
+  font-size: 1.3rem;
+  font-weight: 900;
+  background-color: rgba(32, 129, 76, 0.726);
+  color: #fff;
+  border: none;
+  border-radius: 100px;
+  padding: 1em 2em;
+  text-decoration: none;
+}
+.section-two {
+  padding: 3em 0;
+}
+.col {
+  text-align: center;
+}
+.col + .col {
+  margin-left: 2em;
+}
+.col p {
+  margin-top: 1rem;
+}
+.section--three {
+  padding: 3em 0;
+  background-color: rgb(49, 153, 139);
+}
+.section--three h1,
+.section--three p {
+  color: rgb(216, 212, 212);
+}

@@ -1,0 +1,68 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-size: 21px;
+  font-family: 'Lato', sans-serif;
+}
+h1,
+h2 {
+  line-height: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+img {
+  width: 100%;
+  max-width: 100%;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.hero {
+  padding: 10em 0;
+  background-color: orange;
+}
+.hero--modifier {
+  text-align: center;
+  color: #fff;
+}
+.hero__subtitle {
+  letter-spacing: 1em;
+}
+.section-one,
+.section-two,
+.section-three {
+  padding: 4em 0;
+}
+.section-two--modifier {
+  background-color: rgb(80, 79, 77);
+  color: #fff;
+}
+.section-three--modifier {
+  background-color: brown;
+  color: #fff;
+}
+.title {
+  text-align: center;
+}
+.section-one--title {
+  color: brown;
+}
+@media (min-width: 601px) {
+  .row {
+    display: flex;
+  }
+  .col {
+    flex: 1;
+  }
+  .col + .col {
+    margin-left: 1em;
+  }
+}

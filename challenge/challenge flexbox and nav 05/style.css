@@ -1,0 +1,97 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html {
+  /* font-size: 21px; */
+}
+a {
+  text-decoration: none;
+  color: #273c75;
+}
+h1 {
+  font-size: 2.6rem;
+}
+h2 {
+  text-transform: capitalize;
+  margin-bottom: 0.55em;
+}
+.btn {
+  display: inline-block;
+  padding: 0.25em 1.25em;
+  background-color: #f5f6fa;
+  border-radius: 100px;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container {
+  width: 80%;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+header {
+  padding: 1em;
+  background-color: #273c75;
+  color: #f5f6fa;
+}
+.nav {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+.nav__list--primary {
+  margin: 0 auto;
+}
+.nav__item {
+  font-size: 1.4em;
+  margin-left: 1em;
+  list-style: none;
+  text-transform: capitalize;
+}
+.hero {
+  padding: 6em 0;
+  background-color: #192a56;
+  color: #f5f6fa;
+}
+.hero__text {
+  width: 58%;
+}
+.hero__image {
+  width: 38%;
+  object-fit: cover;
+  object-position: center;
+}
+.hero p {
+  margin: 0.45em 0 2em;
+  color: #dcdde1;
+}
+.hero--btn {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+/* ======================= */
+.section--one {
+  padding: 5em 0;
+}
+.section--one--rightside {
+  width: 38%;
+}
+.section--one--rightside--modifier {
+  padding: 8em 2em;
+  background-color: #192a56;
+  color: #dcdde1;
+  text-align: center;
+}
+.col + .col {
+  margin-top: 2em;
+}
+.section--one--leftside {
+  width: 58%;
+}
